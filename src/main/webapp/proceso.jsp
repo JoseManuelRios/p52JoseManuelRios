@@ -32,7 +32,9 @@ Cliente cli;
         Correo: <%= cli.getCorreo() %> <br>
         
     <% } %> <!-- LLave del else -->
-    
+    <form methos="post" action="index.html">
+           <input type="submit" name="btnVolver" value="Volver"/>
+    </form>
 </body>
 </html>
 
